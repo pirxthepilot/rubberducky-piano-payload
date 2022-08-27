@@ -924,7 +924,9 @@ WHILE TRUE
     DELAY 20
     RELEASE ,
     tick()
+    HOLD r
     DELAY 20
+    RELEASE r
     tick()
     HOLD ,
     DELAY 20
@@ -936,7 +938,9 @@ WHILE TRUE
     RELEASE i
     RELEASE c
     tick()
+    HOLD i
     DELAY 20
+    RELEASE i
     tick()
     HOLD r
     DELAY 20
@@ -944,10 +948,10 @@ WHILE TRUE
     tick()
     DELAY 20
     tick()
-    HOLD t
+    HOLD w
     HOLD v
     DELAY 20
-    RELEASE t
+    RELEASE w
     RELEASE v
     tick()
     HOLD ,
@@ -958,12 +962,6 @@ WHILE TRUE
     tick()
     DELAY 20
     tick()
-    HOLD ,
-    HOLD /
-    DELAY 20
-    RELEASE ,
-    RELEASE /
-    tick()
     HOLD t
     HOLD ,
     HOLD /
@@ -972,16 +970,22 @@ WHILE TRUE
     RELEASE ,
     RELEASE /
     tick()
+    HOLD ,
+    HOLD /
     DELAY 20
+    RELEASE ,
+    RELEASE /
     tick()
-    HOLD .
     DELAY 20
-    RELEASE .
     tick()
     HOLD u
-    HOLD ,
+    HOLD .
     DELAY 20
     RELEASE u
+    RELEASE .
+    tick()
+    HOLD ,
+    DELAY 20
     RELEASE ,
     tick()
     HOLD t
@@ -994,7 +998,9 @@ WHILE TRUE
     DELAY 20
     RELEASE b
     tick()
+    HOLD t
     DELAY 20
+    RELEASE t
     tick()
     HOLD c
     DELAY 20
@@ -1006,7 +1012,9 @@ WHILE TRUE
     RELEASE i
     RELEASE x
     tick()
+    HOLD i
     DELAY 20
+    RELEASE i
     tick()
     HOLD t
     DELAY 20
@@ -1056,7 +1064,9 @@ WHILE TRUE
     DELAY 20
     RELEASE ,
     tick()
+    HOLD r
     DELAY 20
+    RELEASE r
     tick()
     HOLD ,
     DELAY 20
@@ -1068,7 +1078,9 @@ WHILE TRUE
     RELEASE i
     RELEASE c
     tick()
+    HOLD i
     DELAY 20
+    RELEASE i
     tick()
     HOLD r
     DELAY 20
@@ -1088,8 +1100,10 @@ WHILE TRUE
     tick()
     DELAY 20
     tick()
+    HOLD t
     HOLD ,
     DELAY 20
+    RELEASE t
     RELEASE ,
     tick()
     HOLD t
