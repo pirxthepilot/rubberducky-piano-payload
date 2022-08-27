@@ -1,0 +1,1229 @@
+ATTACKMODE HID STORAGE
+
+FUNCTION tick()
+    DELAY 30
+END_FUNCTION
+
+WHILE TRUE
+    WAIT_FOR_BUTTON_PRESS
+    HOLD w
+    HOLD 5
+    HOLD m
+    DELAY 20
+    RELEASE w
+    RELEASE 5
+    RELEASE m
+    tick()
+    HOLD w
+    HOLD 5
+    HOLD m
+    DELAY 20
+    RELEASE w
+    RELEASE 5
+    RELEASE m
+    tick()
+    DELAY 20
+    tick()
+    HOLD w
+    HOLD 5
+    HOLD m
+    DELAY 20
+    RELEASE w
+    RELEASE 5
+    RELEASE m
+    tick()
+    DELAY 20
+    tick()
+    HOLD w
+    HOLD 5
+    HOLD b
+    DELAY 20
+    RELEASE w
+    RELEASE 5
+    RELEASE b
+    tick()
+    HOLD w
+    HOLD 5
+    HOLD m
+    DELAY 20
+    RELEASE w
+    RELEASE 5
+    RELEASE m
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD u
+    HOLD .
+    DELAY 20
+    RELEASE t
+    RELEASE u
+    RELEASE .
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD x
+    DELAY 20
+    RELEASE t
+    RELEASE x
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD p
+    HOLD b
+    DELAY 20
+    RELEASE t
+    RELEASE p
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD e
+    HOLD x
+    DELAY 20
+    RELEASE e
+    RELEASE x
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD q
+    HOLD p
+    DELAY 20
+    RELEASE q
+    RELEASE p
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD r
+    HOLD c
+    DELAY 20
+    RELEASE r
+    RELEASE c
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD v
+    DELAY 20
+    RELEASE t
+    RELEASE v
+    tick()
+    DELAY 20
+    tick()
+    HOLD 5
+    HOLD f
+    DELAY 20
+    RELEASE 5
+    RELEASE f
+    tick()
+    HOLD r
+    HOLD c
+    DELAY 20
+    RELEASE r
+    RELEASE c
+    tick()
+    DELAY 20
+    tick()
+    HOLD e
+    HOLD x
+    DELAY 20
+    RELEASE e
+    RELEASE x
+    tick()
+    HOLD i
+    HOLD m
+    DELAY 20
+    RELEASE i
+    RELEASE m
+    tick()
+    DELAY 20
+    tick()
+    HOLD p
+    HOLD .
+    DELAY 20
+    RELEASE p
+    RELEASE .
+    tick()
+    HOLD z
+    HOLD /
+    DELAY 20
+    RELEASE z
+    RELEASE /
+    tick()
+    DELAY 20
+    tick()
+    HOLD o
+    HOLD ,
+    DELAY 20
+    RELEASE o
+    RELEASE ,
+    tick()
+    HOLD p
+    HOLD .
+    DELAY 20
+    RELEASE p
+    RELEASE .
+    tick()
+    DELAY 20
+    tick()
+    HOLD i
+    HOLD m
+    DELAY 20
+    RELEASE i
+    RELEASE m
+    tick()
+    DELAY 20
+    tick()
+    HOLD y
+    HOLD b
+    DELAY 20
+    RELEASE y
+    RELEASE b
+    tick()
+    HOLD u
+    HOLD n
+    DELAY 20
+    RELEASE u
+    RELEASE n
+    tick()
+    HOLD t
+    HOLD v
+    DELAY 20
+    RELEASE t
+    RELEASE v
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD p
+    HOLD b
+    DELAY 20
+    RELEASE t
+    RELEASE p
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD e
+    HOLD x
+    DELAY 20
+    RELEASE e
+    RELEASE x
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD q
+    HOLD p
+    DELAY 20
+    RELEASE q
+    RELEASE p
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD r
+    HOLD c
+    DELAY 20
+    RELEASE r
+    RELEASE c
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD v
+    DELAY 20
+    RELEASE t
+    RELEASE v
+    tick()
+    DELAY 20
+    tick()
+    HOLD 5
+    HOLD f
+    DELAY 20
+    RELEASE 5
+    RELEASE f
+    tick()
+    HOLD r
+    HOLD c
+    DELAY 20
+    RELEASE r
+    RELEASE c
+    tick()
+    DELAY 20
+    tick()
+    HOLD e
+    HOLD x
+    DELAY 20
+    RELEASE e
+    RELEASE x
+    tick()
+    HOLD i
+    HOLD m
+    DELAY 20
+    RELEASE i
+    RELEASE m
+    tick()
+    DELAY 20
+    tick()
+    HOLD p
+    HOLD .
+    DELAY 20
+    RELEASE p
+    RELEASE .
+    tick()
+    HOLD z
+    HOLD /
+    DELAY 20
+    RELEASE z
+    RELEASE /
+    tick()
+    DELAY 20
+    tick()
+    HOLD o
+    HOLD ,
+    DELAY 20
+    RELEASE o
+    RELEASE ,
+    tick()
+    HOLD p
+    HOLD .
+    DELAY 20
+    RELEASE p
+    RELEASE .
+    tick()
+    DELAY 20
+    tick()
+    HOLD i
+    HOLD m
+    DELAY 20
+    RELEASE i
+    RELEASE m
+    tick()
+    DELAY 20
+    tick()
+    HOLD y
+    HOLD b
+    DELAY 20
+    RELEASE y
+    RELEASE b
+    tick()
+    HOLD u
+    HOLD n
+    DELAY 20
+    RELEASE u
+    RELEASE n
+    tick()
+    HOLD t
+    HOLD v
+    DELAY 20
+    RELEASE t
+    RELEASE v
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD q
+    DELAY 20
+    RELEASE q
+    tick()
+    DELAY 20
+    tick()
+    HOLD .
+    DELAY 20
+    RELEASE .
+    tick()
+    HOLD e
+    HOLD l
+    DELAY 20
+    RELEASE e
+    RELEASE l
+    tick()
+    HOLD ,
+    DELAY 20
+    RELEASE ,
+    tick()
+    HOLD n
+    DELAY 20
+    RELEASE n
+    tick()
+    HOLD i
+    HOLD j
+    DELAY 20
+    RELEASE i
+    RELEASE j
+    tick()
+    HOLD m
+    DELAY 20
+    RELEASE m
+    tick()
+    HOLD r
+    DELAY 20
+    RELEASE r
+    tick()
+    HOLD d
+    DELAY 20
+    RELEASE d
+    tick()
+    HOLD c
+    DELAY 20
+    RELEASE c
+    tick()
+    HOLD i
+    HOLD b
+    DELAY 20
+    RELEASE i
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD c
+    DELAY 20
+    RELEASE c
+    tick()
+    HOLD z
+    HOLD b
+    DELAY 20
+    RELEASE z
+    RELEASE b
+    tick()
+    HOLD n
+    DELAY 20
+    RELEASE n
+    tick()
+    HOLD q
+    DELAY 20
+    RELEASE q
+    tick()
+    DELAY 20
+    tick()
+    HOLD .
+    DELAY 20
+    RELEASE .
+    tick()
+    HOLD e
+    HOLD l
+    DELAY 20
+    RELEASE e
+    RELEASE l
+    tick()
+    HOLD ,
+    DELAY 20
+    RELEASE ,
+    tick()
+    HOLD n
+    DELAY 20
+    RELEASE n
+    tick()
+    HOLD t
+    HOLD j
+    DELAY 20
+    RELEASE t
+    RELEASE j
+    tick()
+    HOLD i
+    HOLD m
+    DELAY 20
+    RELEASE i
+    RELEASE m
+    tick()
+    DELAY 20
+    tick()
+    HOLD .
+    HOLD b
+    DELAY 20
+    RELEASE .
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD .
+    HOLD b
+    DELAY 20
+    RELEASE .
+    RELEASE b
+    tick()
+    HOLD .
+    HOLD b
+    DELAY 20
+    RELEASE .
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    DELAY 20
+    RELEASE t
+    tick()
+    DELAY 20
+    tick()
+    HOLD q
+    DELAY 20
+    RELEASE q
+    tick()
+    DELAY 20
+    tick()
+    HOLD .
+    DELAY 20
+    RELEASE .
+    tick()
+    HOLD e
+    HOLD l
+    DELAY 20
+    RELEASE e
+    RELEASE l
+    tick()
+    HOLD ,
+    DELAY 20
+    RELEASE ,
+    tick()
+    HOLD n
+    DELAY 20
+    RELEASE n
+    tick()
+    HOLD i
+    HOLD j
+    DELAY 20
+    RELEASE i
+    RELEASE j
+    tick()
+    HOLD m
+    DELAY 20
+    RELEASE m
+    tick()
+    HOLD r
+    DELAY 20
+    RELEASE r
+    tick()
+    HOLD d
+    DELAY 20
+    RELEASE d
+    tick()
+    HOLD c
+    DELAY 20
+    RELEASE c
+    tick()
+    HOLD i
+    HOLD b
+    DELAY 20
+    RELEASE i
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD c
+    DELAY 20
+    RELEASE c
+    tick()
+    HOLD z
+    HOLD b
+    DELAY 20
+    RELEASE z
+    RELEASE b
+    tick()
+    HOLD n
+    DELAY 20
+    RELEASE n
+    tick()
+    HOLD q
+    DELAY 20
+    RELEASE q
+    tick()
+    DELAY 20
+    tick()
+    HOLD 6
+    HOLD d
+    HOLD j
+    DELAY 20
+    RELEASE 6
+    RELEASE d
+    RELEASE j
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD 7
+    HOLD z
+    HOLD n
+    DELAY 20
+    RELEASE 7
+    RELEASE z
+    RELEASE n
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD i
+    HOLD p
+    HOLD b
+    DELAY 20
+    RELEASE i
+    RELEASE p
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    DELAY 20
+    RELEASE t
+    tick()
+    HOLD t
+    DELAY 20
+    RELEASE t
+    tick()
+    DELAY 20
+    tick()
+    HOLD q
+    DELAY 20
+    RELEASE q
+    tick()
+    DELAY 20
+    tick()
+    HOLD 6
+    HOLD d
+    HOLD b
+    DELAY 20
+    RELEASE 6
+    RELEASE d
+    RELEASE b
+    tick()
+    HOLD d
+    HOLD b
+    DELAY 20
+    RELEASE d
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD 3
+    HOLD d
+    HOLD b
+    DELAY 20
+    RELEASE 3
+    RELEASE d
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD b
+    DELAY 20
+    RELEASE b
+    tick()
+    HOLD 6
+    HOLD n
+    DELAY 20
+    RELEASE 6
+    RELEASE n
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD x
+    HOLD m
+    DELAY 20
+    RELEASE t
+    RELEASE x
+    RELEASE m
+    tick()
+    HOLD b
+    DELAY 20
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD q
+    HOLD c
+    DELAY 20
+    RELEASE q
+    RELEASE c
+    tick()
+    HOLD x
+    DELAY 20
+    RELEASE x
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    DELAY 20
+    RELEASE t
+    tick()
+    DELAY 20
+    tick()
+    HOLD 6
+    HOLD d
+    HOLD b
+    DELAY 20
+    RELEASE 6
+    RELEASE d
+    RELEASE b
+    tick()
+    HOLD d
+    HOLD b
+    DELAY 20
+    RELEASE d
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD 3
+    HOLD d
+    HOLD b
+    DELAY 20
+    RELEASE 3
+    RELEASE d
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD b
+    DELAY 20
+    RELEASE b
+    tick()
+    HOLD 6
+    HOLD n
+    DELAY 20
+    RELEASE 6
+    RELEASE n
+    tick()
+    HOLD x
+    HOLD m
+    DELAY 20
+    RELEASE x
+    RELEASE m
+    tick()
+    HOLD t
+    DELAY 20
+    RELEASE t
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD q
+    DELAY 20
+    RELEASE q
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    DELAY 20
+    RELEASE t
+    tick()
+    DELAY 20
+    tick()
+    HOLD 6
+    HOLD d
+    HOLD b
+    DELAY 20
+    RELEASE 6
+    RELEASE d
+    RELEASE b
+    tick()
+    HOLD d
+    HOLD b
+    DELAY 20
+    RELEASE d
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD 3
+    HOLD d
+    HOLD b
+    DELAY 20
+    RELEASE 3
+    RELEASE d
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD b
+    DELAY 20
+    RELEASE b
+    tick()
+    HOLD 6
+    HOLD n
+    DELAY 20
+    RELEASE 6
+    RELEASE n
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD x
+    HOLD m
+    DELAY 20
+    RELEASE t
+    RELEASE x
+    RELEASE m
+    tick()
+    HOLD b
+    DELAY 20
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD q
+    HOLD c
+    DELAY 20
+    RELEASE q
+    RELEASE c
+    tick()
+    HOLD x
+    DELAY 20
+    RELEASE x
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    DELAY 20
+    RELEASE t
+    tick()
+    DELAY 20
+    tick()
+    HOLD w
+    HOLD 5
+    HOLD m
+    DELAY 20
+    RELEASE w
+    RELEASE 5
+    RELEASE m
+    tick()
+    HOLD w
+    HOLD 5
+    HOLD m
+    DELAY 20
+    RELEASE w
+    RELEASE 5
+    RELEASE m
+    tick()
+    DELAY 20
+    tick()
+    HOLD w
+    HOLD 5
+    HOLD m
+    DELAY 20
+    RELEASE w
+    RELEASE 5
+    RELEASE m
+    tick()
+    DELAY 20
+    tick()
+    HOLD w
+    HOLD 5
+    HOLD b
+    DELAY 20
+    RELEASE w
+    RELEASE 5
+    RELEASE b
+    tick()
+    HOLD w
+    HOLD 5
+    HOLD m
+    DELAY 20
+    RELEASE w
+    RELEASE 5
+    RELEASE m
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD u
+    HOLD .
+    DELAY 20
+    RELEASE t
+    RELEASE u
+    RELEASE .
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD x
+    DELAY 20
+    RELEASE t
+    RELEASE x
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD q
+    HOLD m
+    DELAY 20
+    RELEASE q
+    RELEASE m
+    tick()
+    HOLD b
+    DELAY 20
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD p
+    HOLD x
+    DELAY 20
+    RELEASE t
+    RELEASE p
+    RELEASE x
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD i
+    HOLD d
+    DELAY 20
+    RELEASE i
+    RELEASE d
+    tick()
+    DELAY 20
+    tick()
+    HOLD r
+    HOLD c
+    DELAY 20
+    RELEASE r
+    RELEASE c
+    tick()
+    HOLD ,
+    DELAY 20
+    RELEASE ,
+    tick()
+    DELAY 20
+    tick()
+    HOLD ,
+    DELAY 20
+    RELEASE ,
+    tick()
+    HOLD i
+    HOLD c
+    DELAY 20
+    RELEASE i
+    RELEASE c
+    tick()
+    DELAY 20
+    tick()
+    HOLD r
+    DELAY 20
+    RELEASE r
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD v
+    DELAY 20
+    RELEASE t
+    RELEASE v
+    tick()
+    HOLD ,
+    HOLD /
+    DELAY 20
+    RELEASE ,
+    RELEASE /
+    tick()
+    DELAY 20
+    tick()
+    HOLD ,
+    HOLD /
+    DELAY 20
+    RELEASE ,
+    RELEASE /
+    tick()
+    HOLD t
+    HOLD ,
+    HOLD /
+    DELAY 20
+    RELEASE t
+    RELEASE ,
+    RELEASE /
+    tick()
+    DELAY 20
+    tick()
+    HOLD .
+    DELAY 20
+    RELEASE .
+    tick()
+    HOLD u
+    HOLD ,
+    DELAY 20
+    RELEASE u
+    RELEASE ,
+    tick()
+    HOLD t
+    HOLD m
+    DELAY 20
+    RELEASE t
+    RELEASE m
+    tick()
+    HOLD b
+    DELAY 20
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD c
+    DELAY 20
+    RELEASE c
+    tick()
+    HOLD i
+    HOLD x
+    DELAY 20
+    RELEASE i
+    RELEASE x
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    DELAY 20
+    RELEASE t
+    tick()
+    DELAY 20
+    tick()
+    HOLD q
+    HOLD m
+    DELAY 20
+    RELEASE q
+    RELEASE m
+    tick()
+    HOLD b
+    DELAY 20
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD p
+    HOLD x
+    DELAY 20
+    RELEASE t
+    RELEASE p
+    RELEASE x
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD i
+    HOLD d
+    DELAY 20
+    RELEASE i
+    RELEASE d
+    tick()
+    DELAY 20
+    tick()
+    HOLD r
+    HOLD c
+    DELAY 20
+    RELEASE r
+    RELEASE c
+    tick()
+    HOLD ,
+    DELAY 20
+    RELEASE ,
+    tick()
+    DELAY 20
+    tick()
+    HOLD ,
+    DELAY 20
+    RELEASE ,
+    tick()
+    HOLD i
+    HOLD c
+    DELAY 20
+    RELEASE i
+    RELEASE c
+    tick()
+    DELAY 20
+    tick()
+    HOLD r
+    DELAY 20
+    RELEASE r
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD v
+    DELAY 20
+    RELEASE t
+    RELEASE v
+    tick()
+    HOLD ,
+    DELAY 20
+    RELEASE ,
+    tick()
+    DELAY 20
+    tick()
+    HOLD ,
+    DELAY 20
+    RELEASE ,
+    tick()
+    HOLD t
+    HOLD ,
+    DELAY 20
+    RELEASE t
+    RELEASE ,
+    tick()
+    DELAY 20
+    tick()
+    HOLD y
+    HOLD m
+    DELAY 20
+    RELEASE y
+    RELEASE m
+    tick()
+    HOLD u
+    HOLD n
+    DELAY 20
+    RELEASE u
+    RELEASE n
+    tick()
+    HOLD i
+    HOLD b
+    DELAY 20
+    RELEASE i
+    RELEASE b
+    tick()
+    HOLD p
+    DELAY 20
+    RELEASE p
+    tick()
+    HOLD t
+    DELAY 20
+    RELEASE t
+    tick()
+    HOLD p
+    DELAY 20
+    RELEASE p
+    tick()
+    HOLD q
+    HOLD i
+    DELAY 20
+    RELEASE q
+    RELEASE i
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD t
+    HOLD p
+    HOLD b
+    DELAY 20
+    RELEASE t
+    RELEASE p
+    RELEASE b
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD e
+    HOLD x
+    DELAY 20
+    RELEASE e
+    RELEASE x
+    tick()
+    DELAY 20
+    tick()
+    DELAY 20
+    tick()
+    HOLD q
+    HOLD p
+    DELAY 20
+    RELEASE q
+    RELEASE p
+    tick()
+    DELAY 20
+    tick()
+    HOLD r
+    HOLD c
+    DELAY 20
+    RELEASE r
+    RELEASE c
+    tick()
+    HOLD v
+    DELAY 20
+    RELEASE v
+    tick()
+    DELAY 20
+    tick()
+    HOLD c
+    DELAY 20
+    RELEASE c
+    tick()
+    HOLD 2
+    HOLD z
+    HOLD d
+    DELAY 20
+    RELEASE 2
+    RELEASE z
+    RELEASE d
+    tick()
+    HOLD f
+    DELAY 20
+    RELEASE f
+    tick()
+    DELAY 20
+    tick()
+    HOLD c
+    DELAY 20
+    RELEASE c
+    tick()
+    HOLD q
+    HOLD p
+    HOLD x
+    DELAY 20
+    RELEASE q
+    RELEASE p
+    RELEASE x
+    tick()
+    HOLD z
+    DELAY 20
+    RELEASE z
+    tick()
+    HOLD q
+    HOLD p
+    HOLD x
+    DELAY 20
+    RELEASE q
+    RELEASE p
+    RELEASE x
+    tick()
+END_WHILE
