@@ -352,8 +352,10 @@ WHILE TRUE
     tick()
     DELAY 20
     tick()
+    HOLD m
     HOLD .
     DELAY 20
+    RELEASE m
     RELEASE .
     tick()
     HOLD e
@@ -362,34 +364,42 @@ WHILE TRUE
     RELEASE e
     RELEASE l
     tick()
+    HOLD n
     HOLD ,
     DELAY 20
+    RELEASE n
     RELEASE ,
     tick()
+    HOLD v
     HOLD n
     DELAY 20
+    RELEASE v
     RELEASE n
     tick()
     HOLD i
-    HOLD j
     DELAY 20
     RELEASE i
-    RELEASE j
     tick()
+    HOLD b
     HOLD m
     DELAY 20
+    RELEASE b
     RELEASE m
     tick()
     HOLD r
     DELAY 20
     RELEASE r
     tick()
+    HOLD p
     HOLD d
     DELAY 20
+    RELEASE p
     RELEASE d
     tick()
+    HOLD z
     HOLD c
     DELAY 20
+    RELEASE z
     RELEASE c
     tick()
     HOLD i
@@ -400,8 +410,10 @@ WHILE TRUE
     tick()
     DELAY 20
     tick()
+    HOLD i
     HOLD c
     DELAY 20
+    RELEASE i
     RELEASE c
     tick()
     HOLD z
@@ -410,8 +422,10 @@ WHILE TRUE
     RELEASE z
     RELEASE b
     tick()
+    HOLD z
     HOLD n
     DELAY 20
+    RELEASE z
     RELEASE n
     tick()
     HOLD q
@@ -420,8 +434,10 @@ WHILE TRUE
     tick()
     DELAY 20
     tick()
+    HOLD m
     HOLD .
     DELAY 20
+    RELEASE m
     RELEASE .
     tick()
     HOLD e
@@ -430,19 +446,21 @@ WHILE TRUE
     RELEASE e
     RELEASE l
     tick()
+    HOLD n
     HOLD ,
     DELAY 20
+    RELEASE n
     RELEASE ,
     tick()
+    HOLD v
     HOLD n
     DELAY 20
+    RELEASE v
     RELEASE n
     tick()
     HOLD t
-    HOLD j
     DELAY 20
     RELEASE t
-    RELEASE j
     tick()
     HOLD i
     HOLD m
@@ -452,25 +470,31 @@ WHILE TRUE
     tick()
     DELAY 20
     tick()
-    HOLD .
     HOLD b
+    HOLD ,
+    HOLD .
     DELAY 20
-    RELEASE .
     RELEASE b
+    RELEASE ,
+    RELEASE .
     tick()
     DELAY 20
     tick()
-    HOLD .
     HOLD b
+    HOLD ,
+    HOLD .
     DELAY 20
-    RELEASE .
     RELEASE b
+    RELEASE ,
+    RELEASE .
     tick()
-    HOLD .
     HOLD b
+    HOLD ,
+    HOLD .
     DELAY 20
-    RELEASE .
     RELEASE b
+    RELEASE ,
+    RELEASE .
     tick()
     DELAY 20
     tick()
@@ -486,8 +510,10 @@ WHILE TRUE
     tick()
     DELAY 20
     tick()
+    HOLD m
     HOLD .
     DELAY 20
+    RELEASE m
     RELEASE .
     tick()
     HOLD e
@@ -496,34 +522,42 @@ WHILE TRUE
     RELEASE e
     RELEASE l
     tick()
+    HOLD n
     HOLD ,
     DELAY 20
+    RELEASE n
     RELEASE ,
     tick()
+    HOLD v
     HOLD n
     DELAY 20
+    RELEASE v
     RELEASE n
     tick()
     HOLD i
-    HOLD j
     DELAY 20
     RELEASE i
-    RELEASE j
     tick()
+    HOLD b
     HOLD m
     DELAY 20
+    RELEASE b
     RELEASE m
     tick()
     HOLD r
     DELAY 20
     RELEASE r
     tick()
+    HOLD p
     HOLD d
     DELAY 20
+    RELEASE p
     RELEASE d
     tick()
+    HOLD z
     HOLD c
     DELAY 20
+    RELEASE z
     RELEASE c
     tick()
     HOLD i
@@ -534,8 +568,10 @@ WHILE TRUE
     tick()
     DELAY 20
     tick()
+    HOLD i
     HOLD c
     DELAY 20
+    RELEASE i
     RELEASE c
     tick()
     HOLD z
@@ -544,8 +580,10 @@ WHILE TRUE
     RELEASE z
     RELEASE b
     tick()
+    HOLD z
     HOLD n
     DELAY 20
+    RELEASE z
     RELEASE n
     tick()
     HOLD q
@@ -888,8 +926,10 @@ WHILE TRUE
     RELEASE q
     RELEASE m
     tick()
+    HOLD c
     HOLD b
     DELAY 20
+    RELEASE c
     RELEASE b
     tick()
     DELAY 20
@@ -920,16 +960,20 @@ WHILE TRUE
     RELEASE r
     RELEASE c
     tick()
+    HOLD b
     HOLD ,
     DELAY 20
+    RELEASE b
     RELEASE ,
     tick()
     HOLD r
     DELAY 20
     RELEASE r
     tick()
+    HOLD b
     HOLD ,
     DELAY 20
+    RELEASE b
     RELEASE ,
     tick()
     HOLD i
@@ -984,8 +1028,10 @@ WHILE TRUE
     RELEASE u
     RELEASE .
     tick()
+    HOLD n
     HOLD ,
     DELAY 20
+    RELEASE n
     RELEASE ,
     tick()
     HOLD t
@@ -994,16 +1040,20 @@ WHILE TRUE
     RELEASE t
     RELEASE m
     tick()
+    HOLD c
     HOLD b
     DELAY 20
+    RELEASE c
     RELEASE b
     tick()
     HOLD t
     DELAY 20
     RELEASE t
     tick()
+    HOLD z
     HOLD c
     DELAY 20
+    RELEASE z
     RELEASE c
     tick()
     HOLD i
@@ -1028,8 +1078,10 @@ WHILE TRUE
     RELEASE q
     RELEASE m
     tick()
+    HOLD c
     HOLD b
     DELAY 20
+    RELEASE c
     RELEASE b
     tick()
     DELAY 20
@@ -1060,16 +1112,20 @@ WHILE TRUE
     RELEASE r
     RELEASE c
     tick()
+    HOLD b
     HOLD ,
     DELAY 20
+    RELEASE b
     RELEASE ,
     tick()
     HOLD r
     DELAY 20
     RELEASE r
     tick()
+    HOLD b
     HOLD ,
     DELAY 20
+    RELEASE b
     RELEASE ,
     tick()
     HOLD i
@@ -1094,16 +1150,20 @@ WHILE TRUE
     RELEASE t
     RELEASE v
     tick()
+    HOLD n
     HOLD ,
     DELAY 20
+    RELEASE n
     RELEASE ,
     tick()
     DELAY 20
     tick()
     HOLD t
+    HOLD n
     HOLD ,
     DELAY 20
     RELEASE t
+    RELEASE n
     RELEASE ,
     tick()
     HOLD t
@@ -1121,15 +1181,19 @@ WHILE TRUE
     RELEASE m
     tick()
     HOLD u
+    HOLD v
     HOLD n
     DELAY 20
     RELEASE u
+    RELEASE v
     RELEASE n
     tick()
     HOLD i
+    HOLD x
     HOLD b
     DELAY 20
     RELEASE i
+    RELEASE x
     RELEASE b
     tick()
     HOLD p
