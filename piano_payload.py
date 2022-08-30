@@ -1,4 +1,8 @@
 import argparse
+from pathlib import Path
+
+
+OS_DETECT_EXTENSION = Path(".") / "hak5_extensions" / "os_detect.txt"
 
 
 def parse_args():
@@ -17,27 +21,47 @@ def generate_keymap(maps: str) -> dict:
     return keymap
 
 
-def notes_to_code(roll: list, keymap: dict, tick: int, press_mode: bool) -> str:
+def notes_to_code(roll: list, keymap: dict, tick: int, url: str, press_mode: bool) -> str:
     # Adjust tick to account for note held duration
     adjusted_tick = tick - 20
     if adjusted_tick < 20:
         raise Exception(f"tick ({tick}) is too low! Must be at least 40ms.")
 
-    code = f"""ATTACKMODE HID STORAGE
+    code = ""
+    indent = ""
+    # Head
+    if not press_mode:
+        with open(OS_DETECT_EXTENSION) as f:
+            code += f.read() + "\n"
+        code += f"""IF ($_OS == WINDOWS) THEN
+    GUI r
+ELSE IF ($_OS == MACOS) THEN
+    COMMAND SPACE
+ELSE IF ($_OS == LINUX) THEN
+    CONTROL ESCAPE
+ELSE
+    GUI
+END_IF
 
-FUNCTION tick()
+DELAY 1000
+STRING {url}
+ENTER
+DELAY 2000\n
+"""
+    else:
+        indent = "    "
+        code += "ATTACKMODE HID STORAGE\n\n"
+
+    # Function (common)
+    code += f"""FUNCTION tick()
     DELAY {adjusted_tick}
 END_FUNCTION\n
 """
 
-    indent = ""
     if press_mode:
-        indent = "    "
         code += """WHILE TRUE
     WAIT_FOR_BUTTON_PRESS
 """
-    else:
-        code += "DELAY 2000\n\n"
 
     # Each row is one or more note press, or a rest. Notes and rests are
     # held for 20ms (not configurable), but the total interval between rows is
@@ -62,9 +86,9 @@ if __name__ == "__main__":
         notes = [line.strip() for line in f.readlines()]
 
     tick = int(notes[0].split("ms")[0])
-    # website = notes[1]  # unused
+    url = notes[1]
     keymap = generate_keymap(notes[2])
     roll = notes[4:]
 
     with open(args.payload, "w") as f:
-        f.write(notes_to_code(roll, keymap, tick, args.press_mode))
+        f.write(notes_to_code(roll, keymap, tick, url, args.press_mode))
