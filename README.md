@@ -1,5 +1,8 @@
 # HAK5 Rubber Ducky Piano Player
 
+**This repo has been DEPRECATED. The latest version can now be found on [hak5/usbrubberducky-payloads](https://github.com/hak5/usbrubberducky-payloads/tree/master/payloads/library/general/Piano_Player).**
+
+
 Script that converts music notation written in tracker-like style into payload code for the [HAK5 USB Rubber Ducky](https://shop.hak5.org/products/usb-rubber-ducky).
 
 ## Usage
